@@ -1,0 +1,15 @@
+✅ Why Pointer is Necessary?
+Heap memory has no variable name, only an address.
+
+You can't say heapVar = 50; — there's no heapVar.
+
+You must say *ptr = 50; where ptr stores the memory address.
+
+Only pointers can store heap addresses
+
+When you use malloc() or new, the memory is returned as an address — a pointer.
+
+You control lifetime and size
+
+Unlike stack memory (auto-deleted when function exits), heap memory stays until you free() or delete it.
+
